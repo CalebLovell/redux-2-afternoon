@@ -14,7 +14,7 @@ class Budget extends Component {
     const { loading } = this.props.budget;
     return (
       <Background>
-        {true ? <Loading /> : null}
+        {loading ? <Loading /> : null}
         <div className="budget-container">
           <Nav />
           <div className="content-container">
